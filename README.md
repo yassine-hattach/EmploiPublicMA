@@ -52,7 +52,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-##Usage
+## Usage
 A) Run the scraper once (manual run)
 
 This runs the incremental pipeline:
@@ -75,7 +75,7 @@ C) Launch the Streamlit Dashboard
 streamlit run app.py
 ```
 
-##Telegram Alerts (Optional)
+## Telegram Alerts (Optional)
 What it does
 
 If Telegram credentials are provided, the scraper can send alerts for postings matching a target rule.
@@ -113,7 +113,7 @@ Then open the Telegram API endpoint below and read the chat.id field:
 
 https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates
 
-##Data Output
+## Data Output
 
 - data/links.csv
 Persistent crawl state (already seen URLs).
@@ -121,7 +121,7 @@ Persistent crawl state (already seen URLs).
 - data/concours_maroc.csv
 Append-only dataset (Excel-friendly encoding: utf-8-sig).
 
-##Ethics & Disclaimer
+## Ethics & Disclaimer
 
 This project is developed for educational purposes. It only accesses publicly available pages and uses responsible scraping practices:
 
