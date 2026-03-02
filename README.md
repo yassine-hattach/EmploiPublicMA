@@ -84,9 +84,8 @@ The rule is implemented in src/scraper.py (e.g., a function like is_target_admin
 1) Set Telegram credentials as environment variables
 
 You need:
-
--TG_TOKEN (your bot token)
--TG_CHAT_ID (the chat id where messages will be delivered)
+- TG_TOKEN (your bot token)
+- TG_CHAT_ID (the chat id where messages will be delivered)
 
 Windows (PowerShell) — for the current terminal session
 ```cmd
